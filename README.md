@@ -2,7 +2,7 @@
 Brand - is an online store, created via HTML , CSS(SASS).
 This project will be updated soon with the use of JS, and PHP.
 
-Used technologies:
+Used technologies:<br>
 1)Used Ps, Avocode apps for psd files<br>
 2)Created 5 fully functional web pages of the Brand online store.<br>
 3)Used HTML/HTML5, CSS/SASS<br>
