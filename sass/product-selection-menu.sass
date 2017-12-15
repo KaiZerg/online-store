@@ -1,0 +1,180 @@
+/*----Begin Product-Selection-menu----*/
+
+@import colors
+@import fonts
+
+
+/*  --------------------2nd column --------------------  */
+.product_selection_menu
+  width: 846px
+.product_filters
+  display: flex
+  justify-content: space-between
+  align-items: center
+  h3
+    color: $grey-thirteen
+    font-family: $font
+    font-size: 14px
+    font-weight: 700
+    line-height: 20px
+    margin-bottom: 10px
+.trend_filters
+  div
+    color: $white-nine
+    a
+      text-decoration: none
+      color: $grey-thirteen
+      font-family: $font
+      font-size: 14px
+      font-weight: 400
+      line-height: 26px
+      transition: ALL 0.3s linear
+      &:hover
+        color: $red
+.size_filters
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: stretch
+  margin-left: 40px
+  input
+    margin-right: 10px
+    width: 15px
+    height: 15px
+    border: 1px solid $white-eight
+    -webkit-appearance: none
+    background-color: $white
+    outline-color: $white
+    &:checked
+      background-color: $red
+      border: 1px solid $white-eight
+      color: $grey-fourteen
+.size__filters
+  display: flex
+  justify-content: flex-start
+.size_filters label
+  width: 70px
+  color: $grey-thirteen
+  font-family: $font
+  font-size: 14px
+  font-weight: 400
+  line-height: 20px
+  &:hover
+    cursor: pointer
+.size_filters__row1
+  margin-bottom: 10px
+  margin-top: 5px
+.slider_range
+  -webkit-appearance: none
+  width: 262px
+  height: 6px
+  border-radius: 5px
+  background: $white-ten
+  outline: none
+  opacity: 0.7
+  -webkit-transition: .2s
+  transition: opacity .2s
+  margin-top: 20px
+.range_figures
+  display: flex
+  justify-content: space-between
+//Imported styles for range filter
+.slider_range::-webkit-slider-thumb
+  -webkit-appearance: none
+  width: 14px
+  height: 14px
+  border-radius: 50%
+  background: $red-two
+  cursor: pointer
+.slider_range::-moz-range-thumb
+  width: 6px
+  height: 6px
+  border-radius: 50%
+  background: $red-two
+  cursor: pointer
+.sort_tab
+  height: 50px
+  background-color: $white-eleven
+  display: flex
+  justify-content: flex-start
+  align-items: center
+  color: $grey-thirteen
+  font-family: $font
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  margin-top: 40px
+  select
+    color: $grey-thirteen
+    font-family: $font
+    font-size: 14px
+    font-weight: 400
+    line-height: 26px
+    border: none
+    padding: 5px 10px
+    outline: none
+  label
+    padding: 5px 10px
+    background-color: $white
+.sort_selection
+  border: 1px solid $white-eight
+  margin-left: 10px
+.main_bottom
+  display: flex
+  justify-content: space-between
+.pagination
+  width: 261px
+  border-radius: 3px
+  border: 1px solid $white-eight
+  display: flex
+  justify-content: space-around
+  padding-top: 17px
+  padding-bottom: 15px
+  a
+    color: $grey-fifteen
+    font-size: 16px
+    font-weight: 700
+    line-height: 26px
+    text-decoration: none
+    &:hover
+      color: $red-two
+  .active_product_page
+    color: $red-two
+
+.product_view_all
+  border-radius: 3px
+  border: 1px solid $red-two
+  align-self: center
+  a
+    width: 100%
+    height: 100%
+    text-decoration: none
+    color: $red-two
+    font-size: 16px
+    font-weight: 700
+    line-height: 44px
+    padding: 15px 45px 15px 47px
+    border-radius: 3px
+    margin-right: -1px
+    transition: ALL 0.3s linear
+    &:hover
+      color: $white
+      background-color: $red-two
+      border: none
+
+.product_selection_menu .for_man div:nth-child(2)
+  color: $grey-thirteen
+  font-family: $font
+  font-size: 13px
+  font-weight: 700
+
+.product_selection_menu .for_man div:nth-child(3)
+  color: $red
+  font-family: $font
+  font-size: 16px
+  font-weight: 700
+
+.product_selection_menu .for_man a:nth-child(2):hover
+  background-color: $red-two
+
+/*----Product-Selection-menu End----*/

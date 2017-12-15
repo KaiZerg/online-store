@@ -1,0 +1,69 @@
+/*----Begin Category----*/
+
+@import colors
+@import fonts
+
+
+/*-----------------------CATEGORY--------------------*/
+.category
+  display: flex
+  justify-content: space-between
+  margin: 100px auto
+
+.category > div > a > div:first-child
+  margin-bottom: 20px
+
+.category > .row-1 .item-1
+  background-image: url(../img/formen.png)
+
+
+.category > .row-1 .item-2
+  background: url(../img/accesories.png) no-repeat top right, url(../img/accesories_bg.png)
+  //background-position: top right
+
+.category > .row-2 .item-2
+  background-image: url(../img/women.png)
+
+.category > .row-2 .item-1
+  background-image: url(../img/forkids.png)
+
+.item
+  width: 560px
+  transition: ALL 0.5s linear
+.category .item:hover
+  filter: brightness(50%)
+  cursor: pointer
+
+.category > .row-1 > .item-1 a
+  width: 560px
+  height: 542px
+
+.item-1
+  height: 542px
+
+.item-2
+  height: 261px
+
+.category_text
+  display: inline-block
+  background-color: $white
+  padding: 19px
+  margin-top: 26px
+
+.category_text > div:first-child
+  color: $black-two
+  font-family: $font
+  font-size: 18px
+  font-weight: 900
+  text-transform: uppercase
+  letter-spacing: 0.45px
+
+.category_text > div:last-child
+  font-family: $font
+  color: $red
+  font-weight: 900
+  font-size: 30px
+  letter-spacing: 0.75px
+  text-transform: uppercase
+
+/*----Category End----*/

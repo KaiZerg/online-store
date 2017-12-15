@@ -1,0 +1,193 @@
+/*----Begin header----*/
+
+@import colors
+@import fonts
+
+.header
+  height: 100px
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17)
+  border: 1px solid $white-two
+  .header_top
+    display: flex
+    align-items: center
+    height: 100%
+    justify-content: space-between
+    .logo
+      display: flex
+      align-items: center
+      justify-content: center
+/* Logo text */
+.logo_text
+  text-decoration: none
+  height: 51px
+  .brand
+    width: 93px
+    height: 19px
+    color: $black-two
+    font-family: $font
+    font-size: 27px
+    font-weight: 300
+    line-height: 51px
+    text-transform: uppercase
+    text-decoration: none
+    letter-spacing: 0.68px
+    padding: 20px 0 12px 13px
+    .red
+      color: $red
+      font-family: $font
+      font-weight: 700
+      letter-spacing: 0.68px
+/*------------SEARCH-------------*/
+.header_search
+  margin-right: auto
+  width: 406px
+  height: 42px
+  background-color: $white
+  margin-left: 30px
+  form
+    display: flex
+    align-items: center
+    height: 100%
+.browse_flex
+  position: relative
+  width: 87px
+  height: 38px
+  border-radius: 3px 0 0 3px
+  border: 1px solid $grey
+  background-color: $white-three
+  display: flex
+  align-items: center
+  justify-content: center
+  border-right: none
+  label
+    text-decoration: none
+    width: 87px
+    height: 38px
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: ALL 0.3s ease-in-out
+    &:hover
+      background-color: $grey
+      cursor: pointer
+    &:active
+      background-color: $grey-two
+.browse_flex span
+  text-decoration: none
+  width: 46px
+  height: 10px
+  color: $black-three
+  font-family: $font
+  font-size: 14px
+  font-weight: 300
+  line-height: 32px
+  letter-spacing: 0.35px
+  margin-right: 9px
+  display: flex
+  align-items: center
+.browse-down
+  color: $grey-three
+  font-size: 14px
+  font-weight: 400
+  position: absolute
+  top: 11px
+  right: 10px
+.browse_flex .browse-right
+  color: $grey-three
+  font-size: 14px
+  font-weight: 400
+  position: absolute
+  top: 11px
+  right: 10px
+  display: none
+.checkbox_drop_top_menu:checked + .browse_drop_menu
+  display: block
+.checkbox_drop_top_menu:checked ~ .browse-right
+  display: block
+  color: $red
+.checkbox_drop_top_menu:checked ~ .browse-down
+  display: none
+.browse_drop_menu
+  width: 250px
+  padding: 20px 25px
+  position: absolute
+  top: 37px
+  left: 0
+  background-color: $white
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+  display: none
+  z-index: 100
+  transition: ALL 0.5s ease
+  .triangle
+    width: 10px
+    height: 10px
+    border-top: 1px solid $grey-four
+    border-left: 1px solid $grey-four
+    position: absolute
+    transform: rotate(45deg)
+    background-color: $white
+    top: -5px
+    left: 68px
+  ul
+    margin-left: 10px
+    li
+      list-style: none
+      a
+        text-decoration: none
+        color: $grey-three
+        font-family: $font
+        font-size: 14px
+        font-weight: 700
+        line-height: 25px
+        transition: ALL 0.2s linear
+        &:hover
+          color: $red
+.browse_drop_menu .browse_drop_menu__title
+  width: auto
+  color: $black-three
+  font-family: $font
+  font-size: 14px
+  font-weight: 900
+  line-height: 32px
+  letter-spacing: 0.4px
+  border-bottom: 1px solid $grey-four
+  margin-bottom: 10px
+  padding: 20px 0 10px 20px
+
+.input_flex
+  width: 317px
+  height: 38px
+  border-radius: 0 3px 3px 0
+  background-color: $white
+  input
+    width: 100%
+    height: 100%
+    color: $grey-five
+    font-family: $font
+    font-size: 14px
+    font-weight: 300
+    line-height: 32px
+    letter-spacing: 0.35px
+    border: 1px solid $grey
+    padding: 0 18px
+    border-right: none
+    outline: none
+.search_submit
+  background-color: $white
+  height: 38px
+  border: 1px solid $grey
+  width: 39px
+  transition: ALL 0.3s linear
+  &:hover
+    cursor: pointer
+    background-color: $grey
+.fa-search
+  width: 14px
+  height: 14px
+  color: $grey-five
+  font-size: 14px
+  font-weight: 400
+  line-height: 32px
+  letter-spacing: 0.35px
+
+/*----header End----*/

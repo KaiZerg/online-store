@@ -1,0 +1,95 @@
+/*----Begin Product-menu----*/
+
+@import colors
+@import fonts
+
+/* ---------------------------2nd Page-----------------------*/
+/* -----------------------Product Page--------------------- */
+.product_menu
+  margin-top: 60px
+  font-family: $font
+  color: $grey-thirteen
+.product_menu_flex
+  display: flex
+  justify-content: space-between
+.product_category_menu
+  width: 243px
+  margin-right: 50px
+  label
+    width: 243px
+    &:hover
+      cursor: pointer
+  li
+    list-style: none
+    width: 243px
+    font-size: 14px
+    font-weight: 700
+    line-height: 33px
+    padding-left: 16px
+    white-space: nowrap
+    transition: ALL 0.3s linear
+.active_product_header
+  border-bottom: 1px solid $white-eight
+  border-left: 5px solid $red
+  display: block
+  justify-content: space-between
+  align-items: baseline
+  margin-bottom: 18px
+.left__menu_list label
+  color: $grey-thirteen
+  font-size: 14px
+  font-weight: 700
+  line-height: 20px
+  padding-left: 11px
+  padding-top: 12px
+  padding-bottom: 12px
+.left__menu_list .fa-caret-up
+  color: $red
+.left__menu_list .fa-caret-down
+  color: $grey-thirteen
+/*------ Product Sub-menu -------*/
+.product__menu_drop_down
+  z-index: 999
+  display: none
+  a
+    text-decoration: none
+    color: $grey-thirteen
+    &:hover
+      color: $red
+.product__menu_drop_down li
+  transition: ALL 0.5s linear
+  &:hover
+    color: $red
+    margin-left: 10px
+.left__menu_items
+  position: relative
+  .fa
+    position: absolute
+    width: 15px
+    height: 15px
+    top: 15px
+    right: 5px
+  .fa-caret-up
+    display: none
+#checkbox_10:checked ~ .product__menu_drop_down
+  display: block
+#checkbox_20:checked ~ .product__menu_drop_down
+  display: block
+#checkbox_30:checked ~ .product__menu_drop_down
+  display: block
+#checkbox_10:checked ~ .active_product_header
+  color: $red
+#checkbox_20:checked ~ .active_product_header
+  color: $red
+#checkbox_30:checked ~ .active_product_header
+  color: $red
+.checkbox_product_menu:checked ~ .fa-caret-up
+  display: block
+  color: $red
+.checkbox_product_menu:checked ~ .fa-caret-down
+  display: none
+
+/*----Product-menu End----*/
+
+
+

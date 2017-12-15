@@ -1,0 +1,132 @@
+/*----Begin Featured----*/
+
+@import colors
+@import fonts
+
+
+/*-------------------------FEATURED ITEMS------------------------*/
+.featured_items
+  width: 1140px
+  height: 940px
+.featured_items_main
+  width: 194px
+  height: 23px
+  font-family: $font
+  color: $black-two
+  font-size: 15px
+  font-weight: 700
+  line-height: 54px
+  letter-spacing: 0.75px
+  margin: 100px auto 16px auto
+  white-space: nowrap
+.featured_items_sub
+  width: 348px
+  height: 12px
+  font-family: $font
+  color: $grey-seven
+  font-size: 14px
+  font-weight: 400
+  line-height: 54px
+  letter-spacing: 0.35px
+  margin: 0 auto
+  white-space: nowrap
+.featured,
+.deal__items
+  display: flex
+  justify-content: space-between
+  margin: 60px auto
+.items_row1
+  justify-content: space-between
+.items_row2
+  justify-content: space-between
+
+.goods
+  background-color: $white
+  width: 260px
+  height: 365px
+  position: relative
+  img
+    transition: ALL 0.5s linear
+  &:hover
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+  &:hover img
+    filter: brightness(50%)
+    cursor: pointer
+  &:hover .add_to_cart
+    display: block
+  & a:nth-child(2):hover
+    background-color: $red
+.link
+  display: block
+  width: 260px
+  height: 365px
+  text-decoration: none
+.goods_title
+  font-size: 14px
+  font-family: $font
+  color: $black-two
+  padding-left: 15px
+  padding-top: 19px
+  font-weight: 900
+.items_price
+  font-size: 18px
+  font-family: $font
+  color: $red
+  padding-left: 15px
+  padding-top: 15px
+  font-weight: 700
+.add_to_cart
+  position: absolute
+  top: 90px
+  left: 70px
+  border: 1px solid $white
+  padding: 10px 10px
+  text-decoration: none
+  color: $white
+  display: none
+  transition: ALL 0.3s linear
+  .fa-shopping-bag
+    color: $white
+    padding: 5px
+    width: 25px
+    height: 25px
+
+.browse_product
+  width: 212px
+  height: 48px
+  background-color: $red
+  display: flex
+  justify-content: center
+  align-items: center
+  margin: 60px auto
+  border-radius: 3px
+  transition: ALL 0.5s linear
+  a
+    text-decoration: none
+    color: $white
+    width: 212px
+    height: 48px
+    font-family: $font
+    font-size: 16px
+    font-weight: 700
+    line-height: 54px
+    letter-spacing: 0.4px
+    display: flex
+    justify-content: center
+    align-items: center
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+    transition: ALL 0.5s linear
+    &:hover
+      background-color: $red-three
+      color: $white
+      border-radius: 5px
+    &:hover .fa-long-arrow-right
+      color: $white
+      display: block
+    & .fa-long-arrow-right
+      padding-left: 5px
+      display: none
+      transition: ALL 0.5s linear
+
+/*----Featured End----*/
+

@@ -1,0 +1,171 @@
+/*----Begin Login-cart----*/
+
+@import colors
+@import fonts
+
+
+/*------------SHOPPING CART-------------*/
+.account
+  display: flex
+  align-items: center
+  justify-content: center
+.shopping_cart_link
+  transition: ALL 0.3s ease
+.shopping_cart
+  width: 32px
+  height: 29px
+  margin-right: 30px
+  position: relative
+  transition: ALL 0.3s ease
+  &:hover  .shopping__cart
+    display: block
+.shopping__cart
+  width: 262px
+  height: 440px
+  padding: 20px 25px
+  border-radius: 5px
+  background-color: $white
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.16)
+  position: absolute
+  top: 40px
+  left: -10px
+  display: none
+  z-index: 999
+  transition: ALL 0.3s ease
+.shopping__cart__triangle
+  width: 18px
+  height: 18px
+  border-top: 1px solid $grey-four
+  border-left: 1px solid $grey-four
+  position: absolute
+  transform: rotate(45deg)
+  background-color: $white
+  top: -9px
+  left: 20px
+.shop_flex_column
+  display: flex
+  justify-content: space-between
+  border-bottom: 1px solid #ededed
+  padding-bottom: 10px
+  margin: 10px 0
+  a:last-child
+    text-decoration: none
+    display: flex
+    align-items: center
+    &:hover
+      color: $red-two
+.cart_img_effect
+  width: 72px
+  height: 85px
+  transition: ALL 0.5s linear
+  &:hover
+    filter: brightness(50%)
+    cursor: pointer
+.cart__product_flex
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: flex-start
+  padding-left: 15px
+  .cart__product_title
+    color: $black-two
+    font-family: $font
+    font-size: 12px
+    font-weight: 900
+  .cart__product_rate
+    color: $yellow
+    font-size: 12px
+    font-weight: 400
+    text-transform: uppercase
+  .cart__product_cost
+    color: $red
+    font-family: $font
+    font-size: 12px
+    font-weight: 400
+    text-transform: uppercase
+.cart_trash_link
+  text-decoration: none
+  .fa-trash
+    width: 15px
+    height: 15px
+    color: $black-two
+    font-size: 16px
+    font-weight: 400
+    text-transform: uppercase
+    transition: ALL 0.3s linear
+    &:hover
+      color: $red-two
+.shopping__cart__total
+  display: flex
+  justify-content: space-between
+  color: $black-two
+  font-family: $font
+  font-size: 16px
+  font-weight: 700
+  margin-bottom: 40px
+  margin-top: 10px
+.shopping__cart__btn
+  display: flex
+  flex-direction: column
+  justify-content: center
+  a
+    width: 212px
+    height: 50px
+    font-family: $font
+    font-size: 14px
+    font-weight: 700
+    text-decoration: none
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: ALL 0.3s linear
+.red_button
+  @extend a
+  background-color: $white
+  color: $red-two
+  border: 1px solid $red-two
+  margin-bottom: 10px
+  &:hover
+    background-color: $red-two
+    color: $white
+    transition: ALL 0.5s linear
+.black_button
+  @extend a
+  color: $grey-five
+  border: 1px solid $white-four
+  &:hover
+    background-color: $grey-five
+    color: $white
+    transition: ALL 0.5s linear
+/*---------------- My Account --------- */
+.my_account
+  width: 130px
+  height: 38px
+  background-color: $red
+  display: flex
+  justify-content: center
+  align-items: center
+  a
+    width: 130px
+    height: auto
+    color: $white
+    font-family: $font
+    font-size: 15px
+    font-weight: 400
+    line-height: 38px
+    letter-spacing: 0.38px
+    text-decoration: none
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: ALL 0.4s linear
+    &:hover
+      background-color: $red-three
+      color: $white
+    &:hover .fa-caret-down
+      color: $white
+    .fa-caret-down
+      color: $white
+      padding-left: 5px
+
+/*----Login-cart End----*/

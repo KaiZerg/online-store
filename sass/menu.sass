@@ -1,0 +1,91 @@
+/*----Begin Menu----*/
+
+@import colors
+@import fonts
+
+
+/*-----------------MAIN NAVIGATION-----------------*/
+.nav_flex
+  height: 51px
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  li
+    list-style-type: none
+    margin: 0 10px
+    &:hover .mega-menu
+      display: block
+.nav_flex > li > a
+      padding: 19px 10px
+      color: $black-two
+      font-family: $font
+      font-size: 14px
+      font-weight: 700
+      text-transform: uppercase
+      text-decoration: none
+      &:hover
+        padding-bottom: 17px
+        border-bottom: 3px solid $red-two
+.angle-mega__menu
+  width: 18px
+  height: 18px
+  border-top: 1px solid $grey-four
+  border-left: 1px solid $grey-four
+  position: absolute
+  transform: rotate(45deg)
+  background-color: $white
+.angle_men
+  top: -9px
+  left: 215px
+.angle_women
+  top: -9px
+  left: 300px
+.angle_kids
+  top: -9px
+  left: 385px
+.angle_accessories
+  top: -9px
+  left: 490px
+.mega-menu
+  padding: 20px 25px
+  border-radius: 5px
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.16)
+  background-color: $white
+  position: absolute
+  top: 50px
+  left: 125px
+  display: none
+  z-index: 999
+  .flex
+    display: flex
+.mega-menu__list
+  width: 235px
+  margin-right: 46px
+  &:last-child
+    margin-right: 25px
+.mega-menu__heading
+  border-bottom: 1px solid $grey-four
+  color: $black-three
+  font-family: $font
+  font-size: 14px
+  font-weight: 700
+  line-height: 32px
+  letter-spacing: 0.35px
+  padding-left: 10px
+  margin-bottom: 10px
+.mega-menu__items
+  list-style: none
+  a
+    text-decoration: none
+    color: $grey-six
+    font-family: $font
+    font-size: 14px
+    font-weight: 400
+    line-height: 28px
+    letter-spacing: 0.35px
+    transition: ALL 0.3s linear
+    &:hover
+      color: $red-two
+
+/*----Menu End----*/
