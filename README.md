@@ -1,6 +1,6 @@
 # online-store
 
-[Online Store Website]:https://kaizerg.github.io/online-store/
+[example.com](https://kaizerg.github.io/online-store/)
 
 ![cover image](https://github.com/KaiZerg/online-store/blob/gh-pages/img/cover.jpg)
 
