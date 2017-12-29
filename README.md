@@ -1,4 +1,9 @@
 # online-store
+
+[Online Store Website]:https://kaizerg.github.io/online-store/
+
+![cover image](https://github.com/KaiZerg/online-store/blob/gh-pages/img/cover.jpg)
+
 Brand - is an online store, created via HTML , CSS(SASS).
 This project will be updated soon with the use of JS, and PHP.
 
