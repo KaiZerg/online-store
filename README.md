@@ -5,7 +5,7 @@
 ![cover image](https://github.com/KaiZerg/online-store/blob/gh-pages/img/cover.jpg)
 
 Brand - is an online store, created via HTML , CSS(SASS).
-This project will be updated soon with the use of JS, and PHP.
+
 
 Used technologies:<br>
 1)Used Ps, Avocode apps for psd files<br>
